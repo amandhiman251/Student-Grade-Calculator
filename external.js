@@ -9,20 +9,16 @@ function aman() {
   var h;
   if (f <= 25 && e >0) {
 	  g = "D";
-  }
-  if (f <=50 && e >25) {
+  }else if (f <=50 && e >25) {
 	  g = "C";
-  }
-  if (f <=75 && e >50) {
+  }else if (f <=75 && e >50) {
 	  g = "B"
-  }
-  if (f <= 100 && e >75) {
+  }else if (f <= 100 && e >75) {
 	  g = "A";
   }
   if ( f< 33.33) {
 	  h = "Fail";
-  }
-  if ( f >= 33.33) {
+  }else if ( f >= 33.33) {
 	  h = "Pass";
   }
     document.getElementById("result").innerHTML = "Out of 400 your total is " + e + " and percentage is " + f +"%. Your grade is " + g + ". You are " + h ;
