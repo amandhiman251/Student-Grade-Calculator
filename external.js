@@ -1,8 +1,8 @@
 function aman() {
-  var a = parseInt(document.getElementById("i1").value);
-  var b = parseInt(document.getElementById("i2").value);
-  var c = parseInt(document.getElementById("i3").value);
-  var d = parseInt(document.getElementById("i4").value);
+  var a = parseFloat(document.getElementById("i1").value);
+  var b = parseFloat(document.getElementById("i2").value);
+  var c = parseFloat(document.getElementById("i3").value);
+  var d = parseFloat(document.getElementById("i4").value);
   var e = a + b + c + d;
   var f = (e*100)/400;
   var g;
