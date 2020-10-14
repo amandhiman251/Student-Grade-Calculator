@@ -21,5 +21,5 @@ function aman() {
   }else if ( f >= 33.33) {
 	  h = "Pass";
   }
-    document.getElementById("result").innerHTML = "Out of 400 your total is " + e + " and percentage is " + f +"%. Your grade is " + g + ". You are " + h ;
+    document.getElementById("result").innerHTML = ` Out of 400 your total is ${e} and percentage is ${f}%. Your grade is ${g}. You are ${h} `;
  }
