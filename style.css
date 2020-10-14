@@ -1,0 +1,40 @@
+.cal {
+  width:600px;
+  height:400px;
+  background:black;
+  box-shadow: 0 14px 14px grey;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ }
+ .flex {
+	 display: flex;
+  align-items:center;
+ }
+ .flex > div {
+	 margin:auto;
+	 width:45%;
+	 border-radius: 25px;
+	 color: yellow;
+	 font-size:38px;
+	 padding:20px;
+ }
+ input[type=text] {
+	 background:transparent;
+	 color:white;
+	 border: none;
+	 border-bottom: 2px solid grey;
+ }
+ input[type=button] {
+	 background:transparent;
+	 color:yellow;
+	 font-weight:bold;
+	 border:none;
+ }
+ #result{
+	 text-align: center;
+	 color:yellow;
+	 font-size:30px;
+ }
